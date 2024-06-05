@@ -5,11 +5,11 @@ export const questions: Array<Question> = [
     question:
       "Which layer of the Earth is primarily composed of solid iron and nickel?",
     options: ["Crust", "Mantle", "Inner core", "Outer core"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
-      "Which set of lines measures distances north and south of the equator?",
+      "Which set of lines measures distances north and south of the equator",
     options: [
       "Latitude lines",
       "Longitude lines",
@@ -27,18 +27,18 @@ export const questions: Array<Question> = [
       "Eratosthenes",
       "Aristotle (Philosophy)",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
-      "Which line of latitude experiences the Sun's most direct rays on June 21st (the first day of summer in the Northern Hemisphere)?",
+      "Which line of latitude experiences the Sun's most direct rays on June 21st (the first day of summer inthe Northern Hemisphere)",
     options: [
       "Tropic of Capricorn -(Dec. 21st) Winter Solstice",
       "Tropic of Cancer - (Summer Solstice)",
       "Arctic Circle -(24 hours day/night; Summer Solstice)",
       "Equator -(March 21st & September 21st)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -53,35 +53,35 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "Which type of map emphasizes a particular theme or topic, such as population density, climate, and vegetation?",
+      "Which type of map emphasizes a particular theme of topic, such as population density, climate, and vegetation?",
     options: ["Physical map", "Thematic map", "Political map", "Economic map"],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
-      "Who described the basic geologic principles in 1669, stating that sedimentary rocks are laid down horizontally and that younger rock units are deposited on top of older rock units?",
+      "Who describe the basic geologic principles in 1669, stating that sedimentary rocks are laid down horizontally and that younger rock unit are deposited on top of older rock units?",
     options: [
       "Charles Lyell (Uniformitarianism)",
-      "Isaac Newton (3 laws of motion; physics)",
+      "Isaac Newton (3 law of motions; physics)",
       "James Hutton (Father of Modern Geology)",
       "Nicolaus Steno",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
-      "Which among the geological processes involves the translocation of disintegrated or altered material within the immediate vicinity of a rock exposure, while the rock mass remains in the original place?",
+      "Which among the geological process involves the translocation of disintegrated or altered material within the immediate vicinity of a rock exposure, while the rock mass remains in original place?",
     options: [
       "Erosion",
       "Deposition",
       "Weathering (involves breakdown and alteration of rocks and minerals)",
       "Metamorphism",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
-      "What is the process that involves the removal of surface material from Earth's crust, primarily soil and rock debris, and the transportation of the eroded materials by natural agencies such as water or wind?",
+      "What is the process that involves the removal of Surface material from Earth's crust, primarily sal and rock debris, and the transportation of the eroded materials by natural agencies such as water or wind?",
     options: ["Erosion", "Deposition", "Weathering", "Metamorphism"],
     answerIndex: 0,
   },
@@ -89,13 +89,13 @@ export const questions: Array<Question> = [
     question:
       "What type of rocks that are deposited at the Earth's surface with the assistance of various agents such as water, wind, ice, or living organisms?",
     options: ["Erosion", "Deposition", "Metamorphic", "Sedimentary"],
-    answerIndex: 3,
+    answerIndex: 0,
   },
-
   {
     question:
-      "Who is credited with the development of the Richter scale, a tool used to measure the magnitude of an earthquake?",
+      "Who is credited with the development of the Richter scale, a tool used to measure the",
     options: [
+      "nitude of an earthquake?",
       "Charles F. Richter",
       "Richter Jones",
       "Johannes Kepler",
@@ -105,8 +105,9 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "Who formulated the elastic rebound theory, which provides an explanation for tectonic earthquakes?",
+      "Who formulated the elastic rebound theory, which provides an explanation for tectonic",
     options: [
+      "thquake?",
       "Harry Fielding Reid",
       "Richard Oldham",
       "Johannes Kepler",
@@ -116,20 +117,20 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "What mountain range serves as a natural boundary between Europe and Asia, extending through Russia and Kazakhstan?",
+      "What Mountain range serves as a natural boundary between Europe and Asia, extending through Russia and Kazakhstan?",
     options: [
-      "The Appalachian Mountains",
-      "The Great Dividing Range",
-      "The Atlas Mountains",
+      "The Appalachian Mountains (North America in US & Canada)",
+      "The Great Dividing Range (Eastern Australia)",
+      "The Atlas Mountains (North Africa in Morocco Algeria)",
       "The Urals",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
-      "What mountain range spans several countries that includes Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina?",
+      "What Mountain range spans several countries that includes Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina?",
     options: [
-      "The Andes",
+      "The Andes (South America)",
       "The Great Dividing Range",
       "The Atlas Mountains",
       "The Urals",
@@ -138,32 +139,37 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "Which mountain peak holds the title as the highest point in Argentina, towering over the Andes Mountain range?",
-    options: ["Mount Kilimanjaro", "Mount Fuji", "Mount Elbrus", "Aconcagua"],
-    answerIndex: 3,
+      "Which Mountain peak holds the title as the highest point in Argentina, towering over the Andes Mountain range?",
+    options: [
+      "Mount Kilimanjaro (Tanzania, Africa)",
+      "Mount Fuji (Honshu Island, Japan)",
+      "Mount Elbrus (Caucasus Mountains in Southern Russia)",
+      "Aconcagua",
+    ],
+    answerIndex: 0,
   },
   {
     question:
-      "What mountain range ranks as the second highest in the world and spans across Afghanistan, Tajikistan, Pakistan, India, and China?",
+      "What Mountain range ranks as the second highest in the world and spans across Afghanistan, Tajikistan, Pakistan, India, and China?",
     options: ["Mount Deccan", "Alps", "Mount Elbrus", "Karakoram"],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
-      "Which among these islands is considered the largest in the world boasting a breathtaking Arctic landscape such as glaciers, icebergs, and fjords?",
+      "Which among these islands is considered the largest in the world boasting a breath-taking Arctic landscape such as glaciers, icebergs, and fjords?",
     options: ["Madagascar", "Iceland", "Greenland", "Borneo"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
       "What is the instrument that is used to observe both soil moisture and ocean salinity through imaging emitted microwave radiation?",
     options: [
-      "Seismograph",
+      "Seismograph (detects waves by earthquake)",
       "MIRAS (Microwave Imaging Radiometer using Aperture Synthesis)",
-      "Thermograph",
-      "Telegraphy",
+      "Thermograph (Measure temperature over time)",
+      "Telegraphy (Transmit coded messages)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -185,57 +191,67 @@ export const questions: Array<Question> = [
       "Mark Joseph Stiglitz",
       "Rachel Carson",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
       "What significant event in the 1960s led to increased awareness and action regarding environmental pollution?",
     options: [
-      "The establishment of the first national park in the USA",
-      "The announcement of the Environmental Protection Agency",
+      "The establishment of the first national park in the USA.",
+      "The announcement of the Environmental Protection Agency.",
       "The discovery of a new renewable energy source",
       "The publication of marine context in environment",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
-      "Which legislation aimed at addressing pollution was announced alongside the formation of the Environmental Protection Agency in the 1960s?",
+      "Which legislation aimed at addressing pollution, was announced alongside the formation of the Environmental Protection Agency in the 1960s?",
     options: [
       "The Clean Water Act",
       "The National Environmental Policy Act",
-      "The Endangered Species Act",
+      "The endangered Species Act",
       "The Clean Air Act",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
       "Which of the following mountains is the second highest in the Philippines?",
-    options: ["Mt. Pulag", "Mt. Apo", "Mt. Dulang-Dulang", "Mt. Ragang"],
-    answerIndex: 2,
+    options: [
+      "Mt. Pulag (Highest Mountain in PH, located in Cordillera Central range in Luzon)",
+      "Mt. Apo (Highest Mountain in PH, located in Mindanao)",
+      "Mt. Dulang-Dulang (second highest, located in Bukidnon)",
+      "Mt. Ragang (7th, Lanao del Sur)",
+    ],
+    answerIndex: 0,
   },
   {
     question: "What geological feature is characterized by a sharp summit?",
-    options: ["River", "Slopes", "Ridge", "Peak"],
-    answerIndex: 3,
+    options: [
+      "River",
+      "Slopes (Slides of hills and mountains)",
+      "Ridge (very long in direction)",
+      "Peak",
+    ],
+    answerIndex: 0,
   },
   {
     question:
       "Which feature is formed when mountain ranges are pushed up from under the surface of the earth?",
     options: ["Rill", "Brook", "Valley", "Channel"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question: "What term refers to the location where a river begins?",
     options: ["Mouth", "Rapids", "Waterfall", "Source"],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
       "Which of the following greenhouse gases is primarily emitted during the production and transport of coal, oil, and natural gas?",
     options: ["Nitrous Oxide", "Carbon Dioxide", "Water Vapor", "Methane"],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -246,13 +262,13 @@ export const questions: Array<Question> = [
       "-2 degrees Celsius (28 degrees Fahrenheit)",
       "36 degrees Celsius (98.6 degrees Fahrenheit)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
       "What biome is characterized by trees that lose their leaves during a certain season?",
     options: ["Tundra", "Desert", "Deciduous forest", "Coniferous biome"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -263,7 +279,7 @@ export const questions: Array<Question> = [
       "Marie Tharp",
       "Richard Helsenki",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -274,25 +290,25 @@ export const questions: Array<Question> = [
       "Caraballo Mountains",
       "Mount Kanlaon",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
       "Which of the following best describes the sum of all ecosystems on Earth?",
     options: ["Hydrosphere", "Lithosphere", "Biosphere", "Atmosphere"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
-      "Any process that are created at the Earth’s surface are referred to as ________ which",
+      "Any process that are created at the Earth’s surface are referred to as ________ which includes the primary process such as weathering, eros transportation, and sedimentation. which includes",
     options: ["Endogenous", "Exogenous", "Subsurface", "Mainsurface"],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
       "At what intervals of longitude are standard time zones typically separated?",
     options: ["30 degrees", "20 degrees", "15 degrees", "5 degrees"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -303,7 +319,7 @@ export const questions: Array<Question> = [
       "International Mean Time (IMT)",
       "Mean Solar Time (MST)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -314,7 +330,7 @@ export const questions: Array<Question> = [
       "180 degrees west or east",
       "30 degrees west or east",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -325,7 +341,7 @@ export const questions: Array<Question> = [
       "Brazil",
       "Vatican City (smallest)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question: "What is the second-highest mountain in North America?",
@@ -335,7 +351,7 @@ export const questions: Array<Question> = [
       "Mount Logan",
       "Mount Whitney (eastern California, USA)",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question: "What is the longest river in North America?",
@@ -345,7 +361,7 @@ export const questions: Array<Question> = [
       "Colorado River (Southwestern USA and Northwestern Mexico)",
       "Mississippi River",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
@@ -356,7 +372,7 @@ export const questions: Array<Question> = [
       "Low-lying areas of land between mountains or hills, typically carved out by erosion from water or glaciers.",
       "Elevated landforms with steep slopes and peaks, often formed through tectonic activity or volcanic processes.",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question: "Which of the following best describes the formation of hills?",
@@ -376,7 +392,7 @@ export const questions: Array<Question> = [
       "Deep, narrow valleys with steep sides, usually formed by erosion from rivers or glaciers. (Canyon)",
       "Landmasses surrounded by water, ranging in size from small islets to large land masses. (Island)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -387,7 +403,7 @@ export const questions: Array<Question> = [
       "Vat deserts",
       "Expansive plains",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -409,7 +425,7 @@ export const questions: Array<Question> = [
       "Demographic map",
       "Topographic map",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -420,7 +436,7 @@ export const questions: Array<Question> = [
       "Gnomonic Projection",
       "Mercator Projection",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
@@ -432,7 +448,7 @@ export const questions: Array<Question> = [
     question:
       "What are the lines called that run around the Earth in an east-west direction, maintaining the same distance from each other?",
     options: ["Meridians", "Parallels", "Latitudes", "Longitudes"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -443,7 +459,7 @@ export const questions: Array<Question> = [
       "Laurasia and Gondwanaland",
       "Eurasia and Gondafraland",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -454,7 +470,7 @@ export const questions: Array<Question> = [
       "Biological processes",
       "Exogenous processes",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
@@ -465,18 +481,30 @@ export const questions: Array<Question> = [
   {
     question:
       "Which geological process involves the bending or curvature of rock layers due to compressional forces within the Earth's crust?",
-    options: ["Erosion", "Faulting", "Folding", "Weathering"],
-    answerIndex: 2,
+    options: [
+      "Erosion",
+      "Faulting (refers to the fracturing and displacement of rock layers along a fault line due to tectonic stress)",
+      "Folding",
+      "Weathering",
+      "",
+      "e: Upward -Anticline, Downward -Syncline",
+    ],
+    answerIndex: 0,
   },
   {
     question:
-      "Which geological feature describes large, bowl-shaped depressions in the Earth's surface commonly surrounded by higher landforms like mountains or plateaus?",
-    options: ["Mesa", "Buttes", "Basin", "Mountain"],
-    answerIndex: 2,
+      "Which geological feature describes large, bowl- shaped depressions in the Earth's surface commonly surrounded by higher landforms like mountains or plateaus?",
+    options: [
+      "Mesa (flat-topped hill or mountain with steep sides)",
+      "Buttes (isolated hills with steep, vertical sides and a flat top)",
+      "Basin",
+      "Mountain",
+    ],
+    answerIndex: 0,
   },
   {
     question:
-      "Which type of soil, characterized by fertility, dark-color, and richness in organic matter, is commonly found in temperate grasslands and ideal for agriculture?",
+      "Which type of soil, characterized by fertility, dark-color, and richness in organic matter, is commonly found in temperate grasslands and idea for agriculture?",
     options: ["Mollisols", "Andisols", "Histosols", "Aridsols"],
     answerIndex: 0,
   },
@@ -488,15 +516,15 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "What term originating from the Chinese word 'tai-fung' meaning 'big wind' refers to a powerful tropical cyclone with strong winds and heavy rainfall?",
+      'What term originating from the Chinese word "tai-fung" meaning "big wind" refers to a powerful tropical cyclone with strong winds and heavy rainfall?',
     options: ["Monsoon", "Hurricane", "Typhoon", "Tornado"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
-      "What desert situated in northern Chile and renowned for its extreme aridity, features landscapes including salt flats, volcanoes, and sand dunes?",
+      "What desert situated in northern Chile and renowned for its extreme aridity, features landscapes including salt falts, volcanoes, and sand dunes?",
     options: ["Sahara", "Gobi Desert", "Atacama Desert", "Mojave Desert"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -518,7 +546,7 @@ export const questions: Array<Question> = [
       "Verde Island Passage",
       "Cuyo East Pass",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question: "What is the longest river in the Philippines?",
@@ -528,28 +556,7 @@ export const questions: Array<Question> = [
       "Rio de Grande",
       "Pampanga river",
     ],
-    answerIndex: 1,
-  },
-  {
-    question:
-      "What is the name of the strait that separates Mindoro and Batangas?",
-    options: [
-      "Balintang Channel",
-      "Tablas Strait",
-      "Verde Island Passage",
-      "Cuyo East Pass",
-    ],
-    answerIndex: 2,
-  },
-  {
-    question: "What is the longest river in the Philippines?",
-    options: [
-      "Agusan river",
-      "Cagayan river",
-      "Rio de Grande",
-      "Pampanga river",
-    ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -560,7 +567,7 @@ export const questions: Array<Question> = [
       "Guimaras-Negros Strait",
       "Sulu Strait",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question: "Which body of water separates Luzon from Taiwan?",
@@ -570,23 +577,23 @@ export const questions: Array<Question> = [
       "Verde Island Passage",
       "Luzon Strait",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question: "What is the largest inland lake in the Philippines?",
     options: ["Taal lake", "Lake Lanao", "Lake Buluan", "Laguna de Bay"],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
-      "What volcano in the Philippines had its most destructive eruption in 1814, burying the town of Cagsawa and resulting in approximately 1,200 deaths?",
+      "What volcano in the Philippines had its most destructive eruption in 1814, burying the town of Cagsawa and resulting in approximately 1, 200 deaths?",
     options: [
       "Mount Pinatubo (Zambales Mountains, Luzon)",
       "Mayon Volcano",
       "Mount Bulusan (Sorsogon in Bicol Region)",
       "Taal Volcano (Province of Batangas)",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
@@ -602,22 +609,22 @@ export const questions: Array<Question> = [
   {
     question: "What is the name of the tallest mountain in Canada?",
     options: [
-      "K2 (2nd tallest mountain in the world)",
+      "2 (2nd tallest mountain in the world)",
       "Mount Logan",
       "Mount Yuri",
       "Mount Koli",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question: "What season does Australia experience in December?",
     options: ["Winter", "Autumn", "Summer", "Rainfall"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question: "Mt. Fuji is the highest point located in which Asian country?",
     options: ["Taiwan", "Japan", "China", "Hong Kong"],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question: "What is the name of the coldest sea on Earth?",
@@ -627,7 +634,7 @@ export const questions: Array<Question> = [
       "The Sea of Senegal (West Africa)",
       "Palawan",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question: "What is the name of the third-longest river in the world?",
@@ -637,7 +644,7 @@ export const questions: Array<Question> = [
       "Yangtze River",
       "Palawan River",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question: "What is the name of the largest waterfall in the world?",
@@ -647,19 +654,19 @@ export const questions: Array<Question> = [
   {
     question: "What is the smallest volcano in the world?",
     options: ["Mt. Pinatubo", "Mt. Apo", "Mt. Guerara", "Taal Volcano"],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
       "What is the most famous among the Philippine volcanoes because of its almost perfect cone- shape?",
     options: ["Mt. Krakatoa", "Mayon Volcano", "Mt. Fuji", "Mt. Zambales"],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
       "Which Philippine volcano is considered to have recorded the second largest volcanic eruption in the world in the 20th century?",
     options: ["Mt. Piece", "Mt. Unano", "Mt. Pinatubo", "Mt. Bansot"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -670,40 +677,40 @@ export const questions: Array<Question> = [
       "Mt. Visayan",
       "Mt. Hibok-Hibok",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
       "What is the name of the mountain located between the provinces of Laguna and Quezon, known for its reputed heating waters?",
     options: ["Mt. Mayon", "Mt. Banahaw", "Mt. Apo", "Mt. Pinatubo"],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
       "What was considered as the most active underwater volcano in the Philippines?",
     options: ["Mt. Dequey", "Mt. Arayat", "Mt. Apo", "Mt. Bulusan"],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
       "This bay is one of the most economically important bays in the Philippines and is famed for its very beautiful sunset. It is bordered by the provinces of Bataan, Pampanga, Bulacan, Cavite and the National Capital Region. What is the name of this body of water?",
     options: ["San Miguel Bay", "Lopez Bay", "Santa Ana Bay", "Manila Bay"],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
-      "This sea is considered to be one of the largest seas in the world. It is also one of the most storm-battered seas on Earth. Within this sea, one of the ten deepest trenches in the world, the Philippine Trench. What is the name of this sea?",
+      "This sea is considered to be one of the largest seas in the world. It is also one of the most storm-battered seas on Earth. Within this seas one of the ten deepest 00 trenches in the world, the Philippine Trench. What is the name of this sea?",
     options: [
       "West Philippine Sea",
       "Philippine Sea",
       "Sulu Sea (Southwestern of PH)",
       "Sulawesi Sea (also known as Celebes sea)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
-      "This is the largest sea within the Philippines. It contains the UNESCO World Heritage Site-Tubbataha Reef. It shares the same name with an archipelagic Philippine province. What is this sea?",
+      "This is the largest sea within the Philippines. It contains the UNESCO World Heritage Site-Tubbataha Reef. It shares the same hame with an archipelagic Philippine province. What is this sea?",
     options: [
       "Celebes Sea",
       "Visayan Sea",
@@ -714,7 +721,7 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "This gulf is mostly surrounded by the provinces of Iloilo, Antique, Guimaras, and Negros Occidental. It is an arm of the Sulu Sea in the Western Visayas. What is this gulf?",
+      "This gulf is mostly surrounded by the the provinces of Iloilo, Antique, Guimaras and Negros Occidental. It is an arm of the Sulu Sea in the Western Visayas. What is this gulf?",
     options: ["Panay Gulf", "Moro Gulf", "Leyte Gulf", "Lingayen Gulf"],
     answerIndex: 0,
   },
@@ -722,11 +729,11 @@ export const questions: Array<Question> = [
     question:
       "The island of Luzon has several bays and gulfs. One of which is this gulf which is found on the island's northwestern part. This gulf is bordered by the provinces of Pangasinan and La Union. What is the name of this gulf?",
     options: ["Panay Gulf", "Moro Gulf", "Leyte Gulf", "Lingayen Gulf"],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
-      "What geographical region, often referred to as the 'Roof of the World,' encompasses an expansive area in Central Asia?",
+      'What geographical region, often referred to as the "Roof of the World, encompasses an expansive area in Central Asia?',
     options: [
       "Tibetan Plateau",
       "Colorado Plateau (USA)",
@@ -744,30 +751,30 @@ export const questions: Array<Question> = [
       "Spanish Plateau (Spain)",
       "Anatolian Plateau (Turkey)",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
   {
     question:
-      "What island, boasting breathtaking Arctic landscapes such as glaciers, icebergs, and fjords, holds the title of being the largest in the world?",
+      "What Island, boasting breathtaking Arctic landscapes such as glaciers, icebergs, and fjords, holds the title of being the largest in the world?",
     options: ["Madagascar", "Borneo", "Greenland", "Baffin Island"],
-    answerIndex: 2,
+    answerIndex: 0,
   },
-  //   {
-  //     question: "What are the 7 Major Tectonic Plates?",
-  //     options: [
-  //       "Pacific Plate",
-  //       "African Plate",
-  //       "Eurasian Plate",
-  //       "Antarctic Plate",
-  //       "Indo-Australian Plate",
-  //       "North American Plate",
-  //       "South American Plate",
-  //     ],
-  //     answerIndex: -1,
-  //   },
+  {
+    question: "What are the 7 Major Tectonic Plates",
+    options: [
+      "Pacific Plate",
+      "African Plate",
+      "Eurasian Plate",
+      "Antarctic Plate",
+      "Indo-Australian Plate",
+      "North American Plate",
+      "South American Plate",
+    ],
+    answerIndex: 0,
+  },
   {
     question:
-      "Which river in Africa has the second-largest volume of water flow?",
+      "Which River in Africa has the second-largest volume of water flow?",
     options: [
       "Congo river",
       "Amur river (boundary between Russia and China)",
@@ -785,33 +792,33 @@ export const questions: Array<Question> = [
       "Victoria lake (Africa)",
       "Superior lake (USA)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
-      "What waterfall in the Philippines stands as the highest in the country, boasting an overall height of 1,110 feet and captivating visitors with a stunning cascade of 18 rapids, resembling a massive stairway with 84 steps of varying heights?",
+      "What waterfall in the Philippines stands as t highest in the country, boasting an overall height 1, 110 feed and captivating visitors with stunning cascade of 18 rapids, resembling massive stairway with 84 steps of varying heights",
     options: [
       "Busay Falls (Bohol)",
       "Limusudan Falls (Iligan City)",
       "Abaga Falls (Southwest Lanao del Norte)",
       "Aliwagwaq Falls",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
-      "What mountain in Bukidnon, Philippines, claims the distinction of being the second highest peak and forms a part of the Kitangland Mountain Range?",
+      "What Mountain in Bukidnon, Philippines claims the distinction of being the second highe peak and forms a part of the Kitangland Mountain Range?",
     options: [
-      "Mount Dulang-Dulang",
-      "Mount Pulag-Benguet (Benguet 3rd)",
-      "Mount Kalatungan (Bukidnon/Lanao del Sur)",
+      "ount Dulang-Dulang",
+      "ount Pulag-Benguet (Benguet 3rd)",
+      "Mount Kalatungan (Bukidnon/Lanao del Sur",
       "Mount Ragang (Lanao del Sur 7th)",
     ],
     answerIndex: 0,
   },
   {
     question:
-      "What volcano, having erupted 34 times span of 448 years as of January 2020, known for its frequent volcanic activity in the Philippines?",
+      "What volcano, having erupted 34 times span of 448 years as of January 2020, known for its frequent volcanic activity in Philippines?",
     options: [
       "Mount Mayon (Albay Province)",
       "Mount Bulusan (Sorsogon Province)",
@@ -822,14 +829,14 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "What Philippine agency is responsible for monitoring volcanic activity and seismic events in the country?",
+      "What Philippine agency is responsible monitoring volcanic activity and seismic everic the country?",
     options: [
       "Philippine Institute of Active Volcanoes Seismology",
       "Philippine Institute of Volcanology",
       "Philippine Institute of Volcanology Seismology",
       "Philippine Institute of Seismology",
     ],
-    answerIndex: 2,
+    answerIndex: 0,
   },
   {
     question:
@@ -840,7 +847,7 @@ export const questions: Array<Question> = [
       "The Great Rift Valley (East Africa)",
       "The Hoggar Mountains (Algeria)",
     ],
-    answerIndex: 3,
+    answerIndex: 0,
   },
 ];
 

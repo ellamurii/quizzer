@@ -1,9 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
-import { createTheme, MantineProvider } from "@mantine/core";
+import { Box, createTheme, MantineProvider } from "@mantine/core";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
 import "@mantine/core/styles.css";
 import "./global.css";
+import Review from "./components/Review/index.tsx";
 
 const theme = createTheme({
   colors: {
@@ -24,10 +31,22 @@ const theme = createTheme({
   primaryColor: "brand",
 });
 
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/">
+      <Route index element={<App />} />
+      <Route path="review" element={<Review />} />
+      <Route path="quiz" element={<>quiz</>} />
+    </Route>
+  )
+);
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <MantineProvider theme={theme}>
-      <App />
+      <Box maw={400} w="100%" p="xl" mx="auto" bg="gray.0">
+        <RouterProvider router={router} />
+      </Box>
     </MantineProvider>
   </React.StrictMode>
 );
