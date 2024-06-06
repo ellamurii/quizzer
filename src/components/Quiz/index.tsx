@@ -129,10 +129,9 @@ const Quiz = () => {
                           ...s,
                           [`${index}`]: choiceIndex,
                         }));
-                        // if (choiceIndex === question.answerIndex) {
-                        //   handleCorrect();
-                        // }
-                        handleCorrect();
+                        if (choiceIndex === question.answerIndex) {
+                          handleCorrect();
+                        }
                       }}
                     >
                       {choice}
