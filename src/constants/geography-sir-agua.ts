@@ -27,7 +27,7 @@ export const questions: Array<Question> = [
       "Eratosthenes",
       "Aristotle (Philosophy)",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -38,7 +38,7 @@ export const questions: Array<Question> = [
       "Arctic Circle -(24 hours day/night; Summer Solstice)",
       "Equator -(March 21st & September 21st)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -55,7 +55,7 @@ export const questions: Array<Question> = [
     question:
       "Which type of map emphasizes a particular theme of topic, such as population density, climate, and vegetation?",
     options: ["Physical map", "Thematic map", "Political map", "Economic map"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -66,7 +66,7 @@ export const questions: Array<Question> = [
       "James Hutton (Father of Modern Geology)",
       "Nicolaus Steno",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -77,7 +77,7 @@ export const questions: Array<Question> = [
       "Weathering (involves breakdown and alteration of rocks and minerals)",
       "Metamorphism",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -89,13 +89,12 @@ export const questions: Array<Question> = [
     question:
       "What type of rocks that are deposited at the Earth's surface with the assistance of various agents such as water, wind, ice, or living organisms?",
     options: ["Erosion", "Deposition", "Metamorphic", "Sedimentary"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
-      "Who is credited with the development of the Richter scale, a tool used to measure the",
+      "Who is credited with the development of the Richter scale, a tool used to measure the magnitude of an earthquake?",
     options: [
-      "nitude of an earthquake?",
       "Charles F. Richter",
       "Richter Jones",
       "Johannes Kepler",
@@ -105,9 +104,8 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "Who formulated the elastic rebound theory, which provides an explanation for tectonic",
+      "Who formulated the elastic rebound theory, which provides an explanation for tectonic earthquake?",
     options: [
-      "thquake?",
       "Harry Fielding Reid",
       "Richard Oldham",
       "Johannes Kepler",
@@ -124,7 +122,7 @@ export const questions: Array<Question> = [
       "The Atlas Mountains (North Africa in Morocco Algeria)",
       "The Urals",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -146,19 +144,19 @@ export const questions: Array<Question> = [
       "Mount Elbrus (Caucasus Mountains in Southern Russia)",
       "Aconcagua",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "What Mountain range ranks as the second highest in the world and spans across Afghanistan, Tajikistan, Pakistan, India, and China?",
     options: ["Mount Deccan", "Alps", "Mount Elbrus", "Karakoram"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Which among these islands is considered the largest in the world boasting a breath-taking Arctic landscape such as glaciers, icebergs, and fjords?",
     options: ["Madagascar", "Iceland", "Greenland", "Borneo"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -169,7 +167,7 @@ export const questions: Array<Question> = [
       "Thermograph (Measure temperature over time)",
       "Telegraphy (Transmit coded messages)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -191,7 +189,7 @@ export const questions: Array<Question> = [
       "Mark Joseph Stiglitz",
       "Rachel Carson",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -202,7 +200,7 @@ export const questions: Array<Question> = [
       "The discovery of a new renewable energy source",
       "The publication of marine context in environment",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -213,7 +211,7 @@ export const questions: Array<Question> = [
       "The endangered Species Act",
       "The Clean Air Act",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -224,7 +222,7 @@ export const questions: Array<Question> = [
       "Mt. Dulang-Dulang (second highest, located in Bukidnon)",
       "Mt. Ragang (7th, Lanao del Sur)",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question: "What geological feature is characterized by a sharp summit?",
@@ -234,24 +232,24 @@ export const questions: Array<Question> = [
       "Ridge (very long in direction)",
       "Peak",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Which feature is formed when mountain ranges are pushed up from under the surface of the earth?",
     options: ["Rill", "Brook", "Valley", "Channel"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question: "What term refers to the location where a river begins?",
     options: ["Mouth", "Rapids", "Waterfall", "Source"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Which of the following greenhouse gases is primarily emitted during the production and transport of coal, oil, and natural gas?",
     options: ["Nitrous Oxide", "Carbon Dioxide", "Water Vapor", "Methane"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -262,13 +260,13 @@ export const questions: Array<Question> = [
       "-2 degrees Celsius (28 degrees Fahrenheit)",
       "36 degrees Celsius (98.6 degrees Fahrenheit)",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "What biome is characterized by trees that lose their leaves during a certain season?",
     options: ["Tundra", "Desert", "Deciduous forest", "Coniferous biome"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -279,7 +277,7 @@ export const questions: Array<Question> = [
       "Marie Tharp",
       "Richard Helsenki",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -290,25 +288,25 @@ export const questions: Array<Question> = [
       "Caraballo Mountains",
       "Mount Kanlaon",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Which of the following best describes the sum of all ecosystems on Earth?",
     options: ["Hydrosphere", "Lithosphere", "Biosphere", "Atmosphere"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
-      "Any process that are created at the Earth’s surface are referred to as ________ which includes the primary process such as weathering, eros transportation, and sedimentation. which includes",
+      "Any process that are created at the Earth's surface are referred to as ________ which includes the primary process such as weathering, eros transportation, and sedimentation. which includes",
     options: ["Endogenous", "Exogenous", "Subsurface", "Mainsurface"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "At what intervals of longitude are standard time zones typically separated?",
     options: ["30 degrees", "20 degrees", "15 degrees", "5 degrees"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -319,7 +317,7 @@ export const questions: Array<Question> = [
       "International Mean Time (IMT)",
       "Mean Solar Time (MST)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -330,7 +328,7 @@ export const questions: Array<Question> = [
       "180 degrees west or east",
       "30 degrees west or east",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -341,7 +339,7 @@ export const questions: Array<Question> = [
       "Brazil",
       "Vatican City (smallest)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question: "What is the second-highest mountain in North America?",
@@ -351,7 +349,7 @@ export const questions: Array<Question> = [
       "Mount Logan",
       "Mount Whitney (eastern California, USA)",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question: "What is the longest river in North America?",
@@ -361,7 +359,7 @@ export const questions: Array<Question> = [
       "Colorado River (Southwestern USA and Northwestern Mexico)",
       "Mississippi River",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -372,7 +370,7 @@ export const questions: Array<Question> = [
       "Low-lying areas of land between mountains or hills, typically carved out by erosion from water or glaciers.",
       "Elevated landforms with steep slopes and peaks, often formed through tectonic activity or volcanic processes.",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question: "Which of the following best describes the formation of hills?",
@@ -392,7 +390,7 @@ export const questions: Array<Question> = [
       "Deep, narrow valleys with steep sides, usually formed by erosion from rivers or glaciers. (Canyon)",
       "Landmasses surrounded by water, ranging in size from small islets to large land masses. (Island)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -403,7 +401,7 @@ export const questions: Array<Question> = [
       "Vat deserts",
       "Expansive plains",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -414,7 +412,7 @@ export const questions: Array<Question> = [
       "Mount Elbrus (Russia)",
       "Mount Damavand (Iran)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -425,7 +423,7 @@ export const questions: Array<Question> = [
       "Demographic map",
       "Topographic map",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -436,7 +434,7 @@ export const questions: Array<Question> = [
       "Gnomonic Projection",
       "Mercator Projection",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -448,7 +446,7 @@ export const questions: Array<Question> = [
     question:
       "What are the lines called that run around the Earth in an east-west direction, maintaining the same distance from each other?",
     options: ["Meridians", "Parallels", "Latitudes", "Longitudes"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -459,7 +457,7 @@ export const questions: Array<Question> = [
       "Laurasia and Gondwanaland",
       "Eurasia and Gondafraland",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -470,7 +468,7 @@ export const questions: Array<Question> = [
       "Biological processes",
       "Exogenous processes",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -486,10 +484,8 @@ export const questions: Array<Question> = [
       "Faulting (refers to the fracturing and displacement of rock layers along a fault line due to tectonic stress)",
       "Folding",
       "Weathering",
-      "",
-      "e: Upward -Anticline, Downward -Syncline",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -500,7 +496,7 @@ export const questions: Array<Question> = [
       "Basin",
       "Mountain",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -518,13 +514,13 @@ export const questions: Array<Question> = [
     question:
       'What term originating from the Chinese word "tai-fung" meaning "big wind" refers to a powerful tropical cyclone with strong winds and heavy rainfall?',
     options: ["Monsoon", "Hurricane", "Typhoon", "Tornado"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "What desert situated in northern Chile and renowned for its extreme aridity, features landscapes including salt falts, volcanoes, and sand dunes?",
     options: ["Sahara", "Gobi Desert", "Atacama Desert", "Mojave Desert"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -546,7 +542,7 @@ export const questions: Array<Question> = [
       "Verde Island Passage",
       "Cuyo East Pass",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question: "What is the longest river in the Philippines?",
@@ -556,7 +552,7 @@ export const questions: Array<Question> = [
       "Rio de Grande",
       "Pampanga river",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -567,7 +563,7 @@ export const questions: Array<Question> = [
       "Guimaras-Negros Strait",
       "Sulu Strait",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question: "Which body of water separates Luzon from Taiwan?",
@@ -577,12 +573,12 @@ export const questions: Array<Question> = [
       "Verde Island Passage",
       "Luzon Strait",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question: "What is the largest inland lake in the Philippines?",
     options: ["Taal lake", "Lake Lanao", "Lake Buluan", "Laguna de Bay"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -593,7 +589,7 @@ export const questions: Array<Question> = [
       "Mount Bulusan (Sorsogon in Bicol Region)",
       "Taal Volcano (Province of Batangas)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -609,22 +605,22 @@ export const questions: Array<Question> = [
   {
     question: "What is the name of the tallest mountain in Canada?",
     options: [
-      "2 (2nd tallest mountain in the world)",
+      "K2 (2nd tallest mountain in the world)",
       "Mount Logan",
       "Mount Yuri",
       "Mount Koli",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question: "What season does Australia experience in December?",
     options: ["Winter", "Autumn", "Summer", "Rainfall"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question: "Mt. Fuji is the highest point located in which Asian country?",
     options: ["Taiwan", "Japan", "China", "Hong Kong"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question: "What is the name of the coldest sea on Earth?",
@@ -634,7 +630,7 @@ export const questions: Array<Question> = [
       "The Sea of Senegal (West Africa)",
       "Palawan",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question: "What is the name of the third-longest river in the world?",
@@ -644,7 +640,7 @@ export const questions: Array<Question> = [
       "Yangtze River",
       "Palawan River",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question: "What is the name of the largest waterfall in the world?",
@@ -654,19 +650,19 @@ export const questions: Array<Question> = [
   {
     question: "What is the smallest volcano in the world?",
     options: ["Mt. Pinatubo", "Mt. Apo", "Mt. Guerara", "Taal Volcano"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "What is the most famous among the Philippine volcanoes because of its almost perfect cone- shape?",
     options: ["Mt. Krakatoa", "Mayon Volcano", "Mt. Fuji", "Mt. Zambales"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "Which Philippine volcano is considered to have recorded the second largest volcanic eruption in the world in the 20th century?",
     options: ["Mt. Piece", "Mt. Unano", "Mt. Pinatubo", "Mt. Bansot"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -677,25 +673,25 @@ export const questions: Array<Question> = [
       "Mt. Visayan",
       "Mt. Hibok-Hibok",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "What is the name of the mountain located between the provinces of Laguna and Quezon, known for its reputed heating waters?",
     options: ["Mt. Mayon", "Mt. Banahaw", "Mt. Apo", "Mt. Pinatubo"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "What was considered as the most active underwater volcano in the Philippines?",
     options: ["Mt. Dequey", "Mt. Arayat", "Mt. Apo", "Mt. Bulusan"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "This bay is one of the most economically important bays in the Philippines and is famed for its very beautiful sunset. It is bordered by the provinces of Bataan, Pampanga, Bulacan, Cavite and the National Capital Region. What is the name of this body of water?",
     options: ["San Miguel Bay", "Lopez Bay", "Santa Ana Bay", "Manila Bay"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -706,7 +702,7 @@ export const questions: Array<Question> = [
       "Sulu Sea (Southwestern of PH)",
       "Sulawesi Sea (also known as Celebes sea)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -717,7 +713,7 @@ export const questions: Array<Question> = [
       "Sulu Sea (Wester Visayas)",
       "Camotes Sea",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -729,7 +725,7 @@ export const questions: Array<Question> = [
     question:
       "The island of Luzon has several bays and gulfs. One of which is this gulf which is found on the island's northwestern part. This gulf is bordered by the provinces of Pangasinan and La Union. What is the name of this gulf?",
     options: ["Panay Gulf", "Moro Gulf", "Leyte Gulf", "Lingayen Gulf"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -751,27 +747,27 @@ export const questions: Array<Question> = [
       "Spanish Plateau (Spain)",
       "Anatolian Plateau (Turkey)",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "What Island, boasting breathtaking Arctic landscapes such as glaciers, icebergs, and fjords, holds the title of being the largest in the world?",
     options: ["Madagascar", "Borneo", "Greenland", "Baffin Island"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
-  {
-    question: "What are the 7 Major Tectonic Plates",
-    options: [
-      "Pacific Plate",
-      "African Plate",
-      "Eurasian Plate",
-      "Antarctic Plate",
-      "Indo-Australian Plate",
-      "North American Plate",
-      "South American Plate",
-    ],
-    answerIndex: 0,
-  },
+  // {
+  //   question: "What are the 7 Major Tectonic Plates",
+  //   options: [
+  //     "Pacific Plate",
+  //     "African Plate",
+  //     "Eurasian Plate",
+  //     "Antarctic Plate",
+  //     "Indo-Australian Plate",
+  //     "North American Plate",
+  //     "South American Plate",
+  //   ],
+  //   answerIndex: 0,
+  // },
   {
     question:
       "Which River in Africa has the second-largest volume of water flow?",
@@ -779,7 +775,7 @@ export const questions: Array<Question> = [
       "Congo river",
       "Amur river (boundary between Russia and China)",
       "Parana river (South America)",
-      "Yenisei river (Siberia – longest)",
+      "Yenisei river (Siberia - longest)",
     ],
     answerIndex: 0,
   },
@@ -792,7 +788,7 @@ export const questions: Array<Question> = [
       "Victoria lake (Africa)",
       "Superior lake (USA)",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -803,7 +799,7 @@ export const questions: Array<Question> = [
       "Abaga Falls (Southwest Lanao del Norte)",
       "Aliwagwaq Falls",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -825,7 +821,7 @@ export const questions: Array<Question> = [
       "Taal Volcano",
       "Mount Pinatubo (Zambales Province)",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -836,7 +832,7 @@ export const questions: Array<Question> = [
       "Philippine Institute of Volcanology Seismology",
       "Philippine Institute of Seismology",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -847,7 +843,7 @@ export const questions: Array<Question> = [
       "The Great Rift Valley (East Africa)",
       "The Hoggar Mountains (Algeria)",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
 ];
 
