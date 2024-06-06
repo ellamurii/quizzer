@@ -5,7 +5,7 @@ export const questions: Array<Question> = [
     question:
       "Which layer of the Earth is primarily composed of solid iron and nickel?",
     options: ["Crust", "Mantle", "Inner core", "Outer core"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:

@@ -1,19 +1,23 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { topics } from "../../constants";
 import { Question } from "../../constants/types";
-import useModeStore from "../../store/useMode";
-import { Stack, Flex, ActionIcon, Button, Card } from "@mantine/core";
+import { Stack, Flex, ActionIcon, Button, Box, Text } from "@mantine/core";
 import { IconArrowsShuffle } from "@tabler/icons-react";
 import { shuffleQuestions } from "../../utils/shuffleQuestions";
+import { ProgressCard } from "../ProgressCard";
+import Lottie from "lottie-react";
+import sparkleLottie from "./../../lottie/sparkle.json";
 
 const Quiz = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
 
   const topic = searchParams.get("topic");
-  const { answerOnly } = useModeStore();
   const [reviewQuestions, setReviewQuestions] = useState<Question[]>();
+  const [currentStep, setCurrentStep] = useState(0);
+  const [answers, setAnswers] = useState<Record<string, number>>();
+  const timerRef = useRef<number | null>(null);
 
   useEffect(() => {
     const match = topics.find((t) => t.title === topic);
@@ -24,44 +28,94 @@ const Quiz = () => {
     setReviewQuestions(match?.questions);
   }, [navigate, topic]);
 
+  const handleCorrect = () => {
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+    }
+
+    timerRef.current = setTimeout(() => {
+      setCurrentStep((s) => s + 1);
+    }, 500);
+  };
+
   return (
     <Stack>
-      <Flex ml="auto" gap="xs">
-        {/* <ActionIcon
-          variant="gradient"
-          size="lg"
-          gradient={{ from: "grape", to: "brand", deg: 75 }}
-          onClick={() => setAnswerOnly(!answerOnly)}
-        >
-          {answerOnly ? <IconEyeCode /> : <IconEyeClosed />}
-        </ActionIcon> */}
+      {reviewQuestions && (
+        <ProgressCard
+          currentValue={currentStep + 1}
+          totalValue={reviewQuestions.length}
+        />
+      )}
+      <Flex ml="auto" gap="xs" pt="46px">
         <ActionIcon
           variant="gradient"
           size="lg"
           gradient={{ from: "grape", to: "brand", deg: 75 }}
-          onClick={() =>
-            reviewQuestions &&
-            setReviewQuestions([...shuffleQuestions(reviewQuestions)])
-          }
+          onClick={() => {
+            if (!reviewQuestions) return;
+            setReviewQuestions([...shuffleQuestions(reviewQuestions)]);
+            setCurrentStep(0);
+          }}
         >
           <IconArrowsShuffle />
         </ActionIcon>
       </Flex>
-      {reviewQuestions?.map((question, index) => (
-        <Card key={index} withBorder mb="lg">
-          <Card w="100%">{question.question}</Card>
-          <Flex pt="md" direction="column" gap="xs">
-            {question.options.map(
-              (choice, choiceIndex) =>
-                (answerOnly ? question.answerIndex === choiceIndex : true) && (
-                  <Button key={choiceIndex} variant="light">
-                    {choice}
-                  </Button>
-                )
-            )}
-          </Flex>
-        </Card>
-      ))}
+      {reviewQuestions?.map(
+        (question, index) =>
+          index === currentStep && (
+            <Box key={index}>
+              <Text ta="center" fz="h4" my="lg">
+                {question.question}
+              </Text>
+              <Flex pt="md" direction="column" gap="xs">
+                {question.options.map((choice, choiceIndex) => (
+                  <Box key={choiceIndex} pos="relative">
+                    {answers?.[index] === question.answerIndex &&
+                      answers?.[index] === choiceIndex && (
+                        <Lottie
+                          animationData={sparkleLottie}
+                          style={{
+                            position: "absolute",
+                            zIndex: 20,
+                            top: "-60px",
+                            right: 0,
+                            left: 0,
+                          }}
+                        />
+                      )}
+                    <Button
+                      fullWidth
+                      radius="xl"
+                      size="md"
+                      variant="light"
+                      {...(answers?.[index] !== choiceIndex
+                        ? {}
+                        : {
+                            color:
+                              answers?.[index] === question.answerIndex &&
+                              answers?.[index] === choiceIndex
+                                ? "cyan.5"
+                                : "red.5",
+                            variant: "filled",
+                          })}
+                      onClick={() => {
+                        setAnswers((s) => ({
+                          ...s,
+                          [`${index}`]: choiceIndex,
+                        }));
+                        if (choiceIndex === question.answerIndex) {
+                          handleCorrect();
+                        }
+                      }}
+                    >
+                      {choice}
+                    </Button>
+                  </Box>
+                ))}
+              </Flex>
+            </Box>
+          )
+      )}
     </Stack>
   );
 };

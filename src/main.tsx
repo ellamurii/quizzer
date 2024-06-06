@@ -45,7 +45,7 @@ const router = createBrowserRouter(
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <MantineProvider theme={theme}>
-      <Box maw={400} w="100%" p="xl" mx="auto" bg="gray.0">
+      <Box maw={400} w="100%" p="xl" mx="auto">
         <RouterProvider router={router} />
       </Box>
     </MantineProvider>

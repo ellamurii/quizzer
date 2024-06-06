@@ -1,14 +1,9 @@
 import { Flex, ActionIcon, Stack, Text } from "@mantine/core";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import useModeStore from "../../store/useMode";
 import { Question } from "../../constants/types";
 import { useEffect, useState } from "react";
 import { topics } from "../../constants";
-import {
-  IconArrowsShuffle,
-  IconEyeClosed,
-  IconEyeCode,
-} from "@tabler/icons-react";
+import { IconArrowsShuffle } from "@tabler/icons-react";
 import { shuffleQuestions } from "../../utils/shuffleQuestions";
 
 const Review = () => {
@@ -16,7 +11,6 @@ const Review = () => {
   const navigate = useNavigate();
 
   const topic = searchParams.get("topic");
-  const { answerOnly, setAnswerOnly } = useModeStore();
   const [reviewQuestions, setReviewQuestions] = useState<Question[]>();
 
   useEffect(() => {
@@ -31,14 +25,6 @@ const Review = () => {
   return (
     <Stack>
       <Flex ml="auto" gap="xs">
-        <ActionIcon
-          variant="gradient"
-          size="lg"
-          gradient={{ from: "grape", to: "brand", deg: 75 }}
-          onClick={() => setAnswerOnly(!answerOnly)}
-        >
-          {answerOnly ? <IconEyeCode /> : <IconEyeClosed />}
-        </ActionIcon>
         <ActionIcon
           variant="gradient"
           size="lg"
@@ -58,7 +44,7 @@ const Review = () => {
           </Text>
           {question.options.map(
             (choice, choiceIndex) =>
-              (answerOnly ? question.answerIndex === choiceIndex : true) && (
+              question.answerIndex === choiceIndex && (
                 <Text key={choiceIndex} size="xs">
                   - {choice}
                 </Text>
