@@ -3,11 +3,12 @@ import { useSearchParams, useNavigate } from "react-router-dom";
 import { topics } from "../../constants";
 import { Question } from "../../constants/types";
 import { Stack, Flex, ActionIcon, Button, Box, Text } from "@mantine/core";
-import { IconArrowsShuffle } from "@tabler/icons-react";
+import { IconArrowNarrowLeft, IconArrowsShuffle } from "@tabler/icons-react";
 import { shuffleQuestions } from "../../utils/shuffleQuestions";
 import { ProgressCard } from "../ProgressCard";
 import Lottie from "lottie-react";
 import sparkleLottie from "./../../lottie/sparkle.json";
+import finishedLottie from "./../../lottie/finished.json";
 
 const Quiz = () => {
   const [searchParams] = useSearchParams();
@@ -40,26 +41,45 @@ const Quiz = () => {
 
   return (
     <Stack>
-      {reviewQuestions && (
+      {reviewQuestions && currentStep >= reviewQuestions.length && (
+        <Box mt="lg">
+          <Text c="brand.9" fw={700} fz="xl" ta="center">
+            Ediwaaaaw! Yiee
+          </Text>
+          <Lottie animationData={finishedLottie} />
+          <Button
+            fullWidth
+            size="lg"
+            leftSection={<IconArrowNarrowLeft />}
+            onClick={() => navigate("/", { replace: true })}
+          >
+            Main Menu
+          </Button>
+        </Box>
+      )}
+
+      {reviewQuestions && currentStep < reviewQuestions.length && (
         <ProgressCard
           currentValue={currentStep + 1}
           totalValue={reviewQuestions.length}
         />
       )}
-      <Flex ml="auto" gap="xs" pt="46px">
-        <ActionIcon
-          variant="gradient"
-          size="lg"
-          gradient={{ from: "grape", to: "brand", deg: 75 }}
-          onClick={() => {
-            if (!reviewQuestions) return;
-            setReviewQuestions([...shuffleQuestions(reviewQuestions)]);
-            setCurrentStep(0);
-          }}
-        >
-          <IconArrowsShuffle />
-        </ActionIcon>
-      </Flex>
+      {reviewQuestions && currentStep < reviewQuestions.length && (
+        <Flex ml="auto" gap="xs" pt="46px">
+          <ActionIcon
+            variant="gradient"
+            size="lg"
+            gradient={{ from: "grape", to: "brand", deg: 75 }}
+            onClick={() => {
+              if (!reviewQuestions) return;
+              setReviewQuestions([...shuffleQuestions(reviewQuestions)]);
+              setCurrentStep(0);
+            }}
+          >
+            <IconArrowsShuffle />
+          </ActionIcon>
+        </Flex>
+      )}
       {reviewQuestions?.map(
         (question, index) =>
           index === currentStep && (
@@ -109,9 +129,10 @@ const Quiz = () => {
                           ...s,
                           [`${index}`]: choiceIndex,
                         }));
-                        if (choiceIndex === question.answerIndex) {
-                          handleCorrect();
-                        }
+                        // if (choiceIndex === question.answerIndex) {
+                        //   handleCorrect();
+                        // }
+                        handleCorrect();
                       }}
                     >
                       {choice}
