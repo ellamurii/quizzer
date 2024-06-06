@@ -3,3 +3,8 @@
   min-height: 100vh;
   background-color: #f8f9fa;
 }
+
+.choice-btn .mantine-Button-label {
+  white-space: normal;
+  padding: 8px;
+}

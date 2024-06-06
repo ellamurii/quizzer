@@ -88,6 +88,12 @@ const Quiz = () => {
                       radius="xl"
                       size="md"
                       variant="light"
+                      className="choice-btn"
+                      style={{
+                        height: "unset",
+                        minHeight:
+                          "var(--button-height, var(--button-height-sm))",
+                      }}
                       {...(answers?.[index] !== choiceIndex
                         ? {}
                         : {
