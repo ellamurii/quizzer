@@ -10,7 +10,8 @@ import {
 } from "react-router-dom";
 import "@mantine/core/styles.css";
 import "./global.css";
-import Review from "./components/Review/index.tsx";
+import Review from "./components/Review";
+import Quiz from "./components/Quiz";
 
 const theme = createTheme({
   colors: {
@@ -36,7 +37,7 @@ const router = createBrowserRouter(
     <Route path="/">
       <Route index element={<App />} />
       <Route path="review" element={<Review />} />
-      <Route path="quiz" element={<>quiz</>} />
+      <Route path="quiz" element={<Quiz />} />
     </Route>
   )
 );

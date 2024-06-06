@@ -93,7 +93,7 @@ export function ActionsGrid() {
         size="lg"
         rightSection={<IconArrowNarrowRight />}
         disabled={!topic || !mode}
-        onClick={() => navigate("/review?topic=" + topic)}
+        onClick={() => navigate(`/${mode}?topic=` + topic)}
       >
         Proceed
       </Button>
