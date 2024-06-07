@@ -43,15 +43,15 @@ export function ActionsGrid() {
   ));
 
   return (
-    <Stack gap="3rem">
+    <Stack gap="1.5rem">
       <Box>
-        <Text size="xl" fw={600} c="dark.7" mb="md">
+        <Text size="xl" fw={600} c="dark.7">
           Choose a Topic
         </Text>
         <SimpleGrid cols={3}>{items}</SimpleGrid>
       </Box>
       <Box>
-        <Text size="xl" fw={600} c="dark.7" mb="md">
+        <Text size="xl" fw={600} c="dark.7">
           In the mood for?
         </Text>
         <SimpleGrid cols={2}>

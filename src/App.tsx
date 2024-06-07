@@ -10,7 +10,7 @@ function App() {
         mx="-xl"
         mt="-xl"
         p="3rem"
-        mb="4rem"
+        mb="2.5rem"
         style={{
           borderBottomRightRadius: "40%",
           borderBottomLeftRadius: "40%",
