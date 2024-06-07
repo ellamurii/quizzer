@@ -72,8 +72,9 @@ const Quiz = () => {
             gradient={{ from: "grape", to: "brand", deg: 75 }}
             onClick={() => {
               if (!reviewQuestions) return;
-              setReviewQuestions([...shuffleQuestions(reviewQuestions)]);
               setCurrentStep(0);
+              setAnswers(undefined);
+              setReviewQuestions([...shuffleQuestions(reviewQuestions)]);
             }}
           >
             <IconArrowsShuffle />
