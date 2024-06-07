@@ -1,7 +1,13 @@
 import { ForwardRefExoticComponent, RefAttributes } from "react";
 import * as geoSirAgua from "./geography-sir-agua.ts";
+import * as economics from "./economics.ts";
 import { Question } from "./types.ts";
-import { Icon, IconGlobe, IconProps } from "@tabler/icons-react";
+import {
+  Icon,
+  IconGlobe,
+  IconProps,
+  IconReportMoney,
+} from "@tabler/icons-react";
 
 export const topics: Array<{
   title: string;
@@ -14,5 +20,11 @@ export const topics: Array<{
     questions: geoSirAgua.questions,
     icon: IconGlobe,
     color: "cyan",
+  },
+  {
+    title: "Economics",
+    questions: economics.questions,
+    icon: IconReportMoney,
+    color: "orange",
   },
 ];
