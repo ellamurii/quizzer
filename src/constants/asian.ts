@@ -5,12 +5,12 @@ export const questions: Array<Question> = [
     question:
       "What is the term for the West that includes Europe and North America, said to be the region of the setting sun?",
     options: ["Meridian", "Tropic", "Occident", "Zenith"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question: "What is the boundary that separates Asia from Africa?",
     options: ["Bering Strait", "Suez Canal", "Ural Mountains", "Black Sea"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -27,7 +27,7 @@ export const questions: Array<Question> = [
       "Himalayas",
       "Caucasus Range",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -38,7 +38,7 @@ export const questions: Array<Question> = [
       "Himalayas -(Eastern part of Pakistan)",
       "Caucasus Range -(Barrier between Black Sea and Cascian Sea)",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -49,7 +49,7 @@ export const questions: Array<Question> = [
       "Nairobi, Kenya",
       "Assam, India",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -59,19 +59,19 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "What country holds the title of being the world’s greatest producer of rubber and tin?",
+      "What country holds the title of being the world's greatest producer of rubber and tin?",
     options: ["Brazil", "Malaysia", "China", "India"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "Which of the following materials is Bangladesh recognized as the leading producer of?",
     options: ["Silk", "Wool", "Jute", "Nylon"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
-      "What geographical feature is located along the Israel-Jordan border and is known as the world’s lowest land area?",
+      "What geographical feature is located along the Israel-Jordan border and is known as the world's lowest land area?",
     options: ["Dead Sea", "Caspian Sea", "Nile River", "Amazon River"],
     answerIndex: 0,
   },
@@ -84,18 +84,18 @@ export const questions: Array<Question> = [
       "Gulf of Mexico",
       "Bay of Bengal - India",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
-      "What is the name of the world’s longest strait, located between Malaysia and Indonesia?",
+      "What is the name of the world's longest strait, located between Malaysia and Indonesia?",
     options: [
       "Panama Strait",
       "Bering Strait",
       "Malacca Strait",
       "English Strait",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -106,11 +106,11 @@ export const questions: Array<Question> = [
       "Cook Strait",
       "San Juanico Strait",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question: "BONUS!",
-    options: [],
+    options: ["Yay! Skip"],
     answerIndex: 0,
   },
   {
@@ -128,7 +128,7 @@ export const questions: Array<Question> = [
       "Eiffel Tower",
       "Sydney Opera House",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -139,18 +139,18 @@ export const questions: Array<Question> = [
       "Brown race",
       "Semitic white race (Arabs, Jews, Iraqis, and Syrians)",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question: "Who is renowned as the greatest Persian epic poet?",
     options: ["Rama", "Firdusi", "Omar Khayyam", "Huetshie"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       'Who is often referred to as the "Shakespeare of India" and is considered the greatest Sanskrit poet of the 5th century?',
     options: ["Valmiklo", "Kabir", "Lao Tzu", "Kalidasa"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -167,7 +167,7 @@ export const questions: Array<Question> = [
     question:
       "Who is credited with iriventing the sexagesimal system in mathematics and devising the Twelve Signs of the Zodiac?",
     options: ["Egyptians", "Greeks", "Romans", "Babylonians"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -189,7 +189,7 @@ export const questions: Array<Question> = [
       "Wu Ti -China's Woman Warrior",
       "Greatest man of the Malay Race - Jose Rizal",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -200,13 +200,13 @@ export const questions: Array<Question> = [
       "Chinese culture",
       "Eastern culture",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "Which of the following countries holds the distinction of being the first republic in Asia in 1898 and the first in Southeast Asia to gain full independence in 1946?",
     options: ["Vietnam", "Malaysia", "Philippines", "Indonesia"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -217,7 +217,7 @@ export const questions: Array<Question> = [
       "The Weeping Waters",
       "Sorrow",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -239,25 +239,25 @@ export const questions: Array<Question> = [
       "The Diamond Sutra",
       "The Tao Te Ching - Lao Tzu",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "Which country introduced sericulture (Silk) significantly changing dress fashion throughout the world?",
-    options: ["India", "Egypt", "Greece", "hina"],
-    answerIndex: 0,
+    options: ["India", "Egypt", "Greece", "China"],
+    answerIndex: 3,
   },
   {
     question:
       "What dynasty invented the world's first newspaper, the Peking Gazette, during the reign of Emperor Hsuan Tsung (705-735 A.D)?",
     options: ["Han dynasty", "Ming dynasty", "Song dynasty", "Tang dynasty"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Who founded the Manchu dynasty by leading the Manchus from the Northeast frontier to conquer China?",
     options: ["Kangxi", "Qianlong", "Taitsung", "Zhu Yuanzhang"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -268,7 +268,7 @@ export const questions: Array<Question> = [
       "The Opium Wars",
       "The Sino-Japanese War",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -279,7 +279,7 @@ export const questions: Array<Question> = [
       "Treaty of Shimonoseki",
       "Treaty of Portsmouth",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -307,7 +307,7 @@ export const questions: Array<Question> = [
     question:
       "What is the name meaning 'Beautiful Island' given to Taiwan by the Portuguese when they explored it in 15902",
     options: ["Terra Nova", "Isla Hermosa", "Illha Formosa", "Bella Isola"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -318,19 +318,19 @@ export const questions: Array<Question> = [
       "Land-to-the-Tiller",
       "Land to the Lords",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "Who was the first leader to oversee democratic elections in Taiwan, thus ending the one-party rule of the Koumintang (Nationalist) Party?",
-    options: ["Chiang Kai-shek", "ao Zedong", "Lee Teng-hui", "Sun Yat-sen"],
-    answerIndex: 0,
+    options: ["Chiang Kai-shek", "Mao Zedong", "Lee Teng-hui", "Sun Yat-sen"],
+    answerIndex: 2,
   },
   {
     question:
       "What country referred to as the 'Land of the Morning Calm', which is a 600-mile peninsula jutting down from China into the Sea of Japan off eastem Asia?",
-    options: ["apan", "Vietnam", "Hong Kong", "Korea"],
-    answerIndex: 0,
+    options: ["Japan", "Vietnam", "Hong Kong", "Korea"],
+    answerIndex: 3,
   },
   {
     question:
@@ -341,13 +341,13 @@ export const questions: Array<Question> = [
       "Juson river",
       "Yalu river (Amnok)",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Who is the first president of the Republic of Korea, established in the U.S which controlled South Korea after the Japanese surrender in 19457",
     options: [
-      "yngman Rhee - Father of Korean Independence",
+      "Syngman Rhee - Father of Korean Independence",
       "Kim Il-sung",
       "Họ Chí Minh",
       "Park Chung-hee",
@@ -363,13 +363,13 @@ export const questions: Array<Question> = [
       "Carlos P. Romulo",
       "Gamal Abdel Nasser",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "What agreement, signed on July 27, 1953, brought peace without friendship between North and South Korea, creating a demilitarized zone along the 38th parallel?",
     options: [
-      "ruce of Panmunjon",
+      "Truce of Panmunjon",
       "Accord of Seoul",
       "Treaty of Pusan",
       "Agreement of Pyongyang",
@@ -383,9 +383,9 @@ export const questions: Array<Question> = [
       "Edict of Nagasaki",
       "Prodamation of Kyoto",
       "Imperial Decree",
-      "eclusion Decree",
+      "Seclusion Decree",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -396,25 +396,24 @@ export const questions: Array<Question> = [
       "Hideski Tojo",
       "Isoroku Yamamoto",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "What mountain is called the Most Sacred mountain in the world, located in the south of Sri Lanka?",
     options: ["Mount Isle", "Mount Juji", "Adam's Peak", "Mount Palk"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       'Who proposed the "Open Door Policy" in 1899, advocating for equal business opportunities for all nations in China amidst the arbitrary partition of the country into spheres of influence?',
     options: [
-      "",
       "Theodore Roosevelt",
       "John Hay",
       "John D. Rockefeller",
       "William McKinley",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -425,7 +424,7 @@ export const questions: Array<Question> = [
       "Land of the Rising Mist",
       "Land of the Morning Calm",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -447,7 +446,7 @@ export const questions: Array<Question> = [
       "Ainus, Mongolians, and Malays",
       "Ainus, Chinese, and Koreans",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -480,7 +479,7 @@ export const questions: Array<Question> = [
       "Commodore Matthew C. Perry",
       "General Douglas MacArthur",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -491,19 +490,19 @@ export const questions: Array<Question> = [
       "August 6, 1945",
       "September 2, 1945",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "Who was the first Filipino saint, martyred in Nagasaki during the 17th century?",
     options: ["Pedro Calungsod", "San Agustin", "Diego Silang", "Lorenzo Ruiz"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Who were the Japanese women, known for their role as entertainers and sometimes involved in prostitution in the Philippines at the tum of the century?",
     options: ["Samurai", "Maiko", "Geisha", "Onna-bugeisha"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -514,7 +513,7 @@ export const questions: Array<Question> = [
       "Emperor Taisho",
       "Emperor Hirohito",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -525,37 +524,37 @@ export const questions: Array<Question> = [
       "Rocky Mountains - North America",
       "Al Hajar Mountains",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       'Which prominent Omani city is known for its historical and cultural significance and is often referred to as the "City of Magic"?',
-    options: ["ahla", "alalah", "Sur", "Sohar"],
+    options: ["Bahla", "Salalah", "Sur", "Sohar"],
     answerIndex: 0,
   },
   {
     question:
       "Which of the following countries is the 2nd largest textile producer in the world and the largest exporter of jewelry?",
-    options: ["China", "Bangladesh", "Vietnam", "ndia"],
-    answerIndex: 0,
+    options: ["China", "Bangladesh", "Vietnam", "India"],
+    answerIndex: 3,
   },
   {
     question:
       "Who wrote the Ramayana, which tells the story of Prince Rama, the 7th reincarnation of the Hindu god Vishnu (Preserver), and his quest to rescue his wife Sita from the demon god Ravana of Ceylon? (Shiva -Destroyer)",
-    options: ["Vyasa", "almiki", "Kalidasa", "Tulsidas"],
-    answerIndex: 0,
+    options: ["Vyasa", "Valmiki", "Kalidasa", "Tulsidas"],
+    answerIndex: 1,
   },
   {
     question:
       "What practice introduced by the Persians, Involves the seclusion of women at home and the wearing of a veil in public?",
     options: ["Sati", "Dowry system", "Purdah,", "Varna system"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "What country is home to the Khyber Pass, a world-famous gateway located in a region where the Himalayas, the Karakorams, and the Hindu Kush mountain ranges meet?",
-    options: ["India", "Afghanistan", "Iran", "akistan"],
-    answerIndex: 0,
+    options: ["India", "Afghanistan", "Iran", "Pakistan"],
+    answerIndex: 3,
   },
   {
     question:
@@ -572,19 +571,19 @@ export const questions: Array<Question> = [
       "Maldives",
       "Fiji -northeast of new zealand",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       'What term refers to holy warriors (Islamic countries) who fought in a holy war known as "Jihad"?',
     options: ["Shaolin", "Samurai", "Mujahedin", "Templars"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       'What region is often referred to as the "Land of Ice and Tears"?',
     options: ["Sahara", "Amazon Rainforest", "Siberia", "Australian, Outback"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -595,7 +594,7 @@ export const questions: Array<Question> = [
       "Lake Titicaca South America, highest lake in the world",
       "Lake Victoria - 2nd largest. East Africa",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -606,7 +605,7 @@ export const questions: Array<Question> = [
       "Silk Road",
       "Trans-Siberian Railway",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -623,18 +622,24 @@ export const questions: Array<Question> = [
       "Operation Desert Storm",
       "Operation Enduring Freedom",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "How many days did the Second Arab-Israeli War, also known as the Suez War last?",
-    options: ["6 days", "7 days", "days", "days"],
-    answerIndex: 0,
+    options: ["6 days", "7 days", "8 days", "9 days"],
+    answerIndex: 2,
   },
   {
     question:
       "Which island in the Persian Gulf, meaning 'Two Seas' in Arabic, considered as the largest among the four significant islets in the region?",
-    options: ["Cyprus", "Maldives", "Crete", "ahrain Island"],
+    options: [
+      "NO ANSWER on document, skip",
+      "Cyprus",
+      "Maldives",
+      "Crete",
+      "Bahrain Island",
+    ],
     answerIndex: 0,
   },
   {
@@ -657,7 +662,7 @@ export const questions: Array<Question> = [
       "Indus civilization",
       "Mesopotamian civilization",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -666,15 +671,15 @@ export const questions: Array<Question> = [
       "Edo period",
       "Meiji period",
       "Heian period",
-      "amakura period (ethics: Bushido) loyalty, honor and self-discipline",
+      "Kamakura period (ethics: Bushido) loyalty, honor and self-discipline",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Who founded the Mughal dynasty and is known for his illustrious pedigree tracing back to Tamerlane and Genghis Khan?",
     options: ["Akbar - Babur's grandson", "Aurangzeb", "Babur", "Shah Jahan"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -685,7 +690,7 @@ export const questions: Array<Question> = [
       "King Mongkut and King Chulalongkorn",
       "King Naresuan and King Narai",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -696,7 +701,7 @@ export const questions: Array<Question> = [
       "The Siege of Santiago",
       "The Treaty of Paris",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
 ];
 

@@ -51,7 +51,11 @@ const Quiz = () => {
             fullWidth
             size="lg"
             leftSection={<IconArrowNarrowLeft />}
-            onClick={() => navigate("/", { replace: true })}
+            onClick={() => {
+              setCurrentStep(0);
+              setAnswers(undefined);
+              navigate("/", { replace: true });
+            }}
           >
             Main Menu
           </Button>

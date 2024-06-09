@@ -412,7 +412,7 @@ export const questions: Array<Question> = [
       "Mount Elbrus (Russia)",
       "Mount Damavand (Iran)",
     ],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -685,7 +685,7 @@ export const questions: Array<Question> = [
     question:
       "What was considered as the most active underwater volcano in the Philippines?",
     options: ["Mt. Dequey", "Mt. Arayat", "Mt. Apo", "Mt. Bulusan"],
-    answerIndex: 1,
+    answerIndex: 0,
   },
   {
     question:
@@ -755,19 +755,21 @@ export const questions: Array<Question> = [
     options: ["Madagascar", "Borneo", "Greenland", "Baffin Island"],
     answerIndex: 2,
   },
-  // {
-  //   question: "What are the 7 Major Tectonic Plates",
-  //   options: [
-  //     "Pacific Plate",
-  //     "African Plate",
-  //     "Eurasian Plate",
-  //     "Antarctic Plate",
-  //     "Indo-Australian Plate",
-  //     "North American Plate",
-  //     "South American Plate",
-  //   ],
-  //   answerIndex: 0,
-  // },
+  {
+    question: "What are the 7 Major Tectonic Plates",
+    options: [
+      [
+        "Pacific Plate",
+        "African Plate",
+        "Eurasian Plate",
+        "Antarctic Plate",
+        "Indo-Australian Plate",
+        "North American Plate",
+        "South American Plate",
+      ].join("\n"),
+    ],
+    answerIndex: 0,
+  },
   {
     question:
       "Which River in Africa has the second-largest volume of water flow?",
@@ -805,8 +807,8 @@ export const questions: Array<Question> = [
     question:
       "What Mountain in Bukidnon, Philippines claims the distinction of being the second highe peak and forms a part of the Kitangland Mountain Range?",
     options: [
-      "ount Dulang-Dulang",
-      "ount Pulag-Benguet (Benguet 3rd)",
+      "Mount Dulang-Dulang",
+      "Mount Pulag-Benguet (Benguet 3rd)",
       "Mount Kalatungan (Bukidnon/Lanao del Sur",
       "Mount Ragang (Lanao del Sur 7th)",
     ],

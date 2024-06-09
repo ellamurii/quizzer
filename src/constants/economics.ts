@@ -21,7 +21,7 @@ export const questions: Array<Question> = [
       "David Ricardo",
       "Adam Smith",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -32,7 +32,7 @@ export const questions: Array<Question> = [
       "Macroeconomics examines strategic interactions among firms, while microeconomics analyzes national economic policies.",
       "Macroeconomics studies the decision-making of consumers, while microeconomics focuses on inflation and unemployment rates.",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -43,7 +43,7 @@ export const questions: Array<Question> = [
       "The cost or value of the next best alternative that is foregone.",
       "The actual monetary cost of a product or service.",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -54,7 +54,7 @@ export const questions: Array<Question> = [
       "The total value of data and theories that enhances understanding.",
       "The body of facts, data, theories that have been acquired over time, and represents what we know.",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -71,13 +71,13 @@ export const questions: Array<Question> = [
     question:
       "Which term best describes the human input in the production process that can be adjusted by changing the number of workers or the productivity through training and education?",
     options: ["Land", "Capital", "Labor", "Entrepreneurship"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "Which factor of production involves taking risks, making decisions, and driving innovation by organizing and combining other factors to create goods and services?",
     options: ["Land", "Capital", "Labor", "Entrepreneurship"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -87,14 +87,19 @@ export const questions: Array<Question> = [
       "Highest valued",
       "Pursuit of an activity",
       "Economic opportunity",
-      "",
+    ],
+    answerIndex: 0,
+  },
+  {
+    question:
       "Which terms best describes the option chosen by individuals that provides the highest perceived value or utility, aligning with their preferences, goals, or prices?",
+    options: [
       "Foregone alternative",
       "Highest valued",
       "Pursuit of an activity",
       "Economic opportunity",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -116,13 +121,13 @@ export const questions: Array<Question> = [
       "Pursuit of an activity",
       "Economic opportunity",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "Which term best describes the dynamic process involving the circulation of goods, services, and money throughout an economy",
     options: ["GNP", "GDP", "Circular flow", "Economic Curve"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -144,7 +149,7 @@ export const questions: Array<Question> = [
       "Government sector",
       "Foreign sector",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -155,7 +160,7 @@ export const questions: Array<Question> = [
       "The Law of Circular Flow",
       "The Law of Demand (Willingness and Ability",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -166,7 +171,7 @@ export const questions: Array<Question> = [
       "The Law of Circular Flow",
       "The Law of Demand",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -177,7 +182,7 @@ export const questions: Array<Question> = [
       "Utility effect",
       "Substitution effect",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -188,7 +193,7 @@ export const questions: Array<Question> = [
       "Utility effect",
       "Substitution effect",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -199,7 +204,7 @@ export const questions: Array<Question> = [
       "Utility effect",
       "Substitution effect",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -208,9 +213,9 @@ export const questions: Array<Question> = [
       "Price effect",
       "Income effect",
       "Utility effect",
-      "ubstitution effect",
+      "Substitution effect",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -221,7 +226,7 @@ export const questions: Array<Question> = [
       "Battery and Sugar",
       "Cell phone and Book",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -238,12 +243,12 @@ export const questions: Array<Question> = [
     question:
       "In trading between USA and China, USA can produce 120 units of clothing or 40 units of electronics per day, while China can produce 80 units of clothing or 20 units of electronics per day. Which com as a comparative advantage in producing electronics?",
     options: ["China", "USA", "Neither country", "Both countries"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question: "Flood damage will ___ the supply of vegetables.",
     options: ["Increase", "Decrease", "Does not affect", "Accelerate"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -255,13 +260,13 @@ export const questions: Array<Question> = [
     question:
       "Which term best describes the state where supply and demand are balanced, resulting in no tendency for change in price or quantity exchanged in the market?",
     options: ["Supply", "Demand", "Scarcity", "Equilibrium"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Which term best describes the condition where resources are limited in comparison to the endless desires and requirements of both individuals and Society?",
     options: ["Supply", "Demand", "Scarcity", "Equilibrium"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -272,7 +277,7 @@ export const questions: Array<Question> = [
       "Price Elasticity",
       "Price Discrimination",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -294,13 +299,13 @@ export const questions: Array<Question> = [
       "Oligopoly",
       "Monopoly",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "Which economic phenomenon is characterized by a sustained decrease in the general price level of goods and services, potentially leading to reduced investment, lower wages, and increased unemployment?",
     options: ["Inflation", "Depression", "Recession", "Expansion"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -312,13 +317,13 @@ export const questions: Array<Question> = [
     question:
       "Which term best describes a situation where consumers or producers are highly responsive to changes in price, resulting in relatively large changes in quantity demanded or supplied for small fluctuations in price?",
     options: ["Inelastic", "Stagnant", "Elastic", "tatic"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
-      "What is the Greek term for ‘management of the household', which refers to the study of how individuals and society allocate scarce resources to satisfy human material wants?",
+      "What is the Greek term for 'management of the household', which refers to the study of how individuals and society allocate scarce resources to satisfy human material wants?",
     options: ["Ethnography", "Epistemology", "Olkonomia", "Ontology"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -329,13 +334,13 @@ export const questions: Array<Question> = [
       "Surplus (A surplus refers to an excess or extra amount of something beyond what is needed or used)",
       "Scarcity",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Which term refers to the cost or value of the next best alternative or choice when a decision is made?",
     options: ["Expenses", "Inflation", "Opportunity cost", "Scarcity"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -346,18 +351,18 @@ export const questions: Array<Question> = [
       "Law of supply",
       "No such thing as free lunch",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question: "Who is known as the father of economics?",
     options: ["JR Hicks", "Adam Smith", "Joan Robinson", "Amartya Sen"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "Who stated that supply and demand should be understood as a relationship rather than just two quantities?",
     options: ["Adam Smith", "David Ricardo", "John Stuart Mill", "Karl Marx"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -368,10 +373,10 @@ export const questions: Array<Question> = [
       "John Locke",
       "Jeremy Bentham",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
-    question: "Who wrote 'A Treatise on Political Economy’?",
+    question: "Who wrote 'A Treatise on Political Economy'?",
     options: [
       "Jean-Baptiste Say",
       "Thomas Malthus",
@@ -382,9 +387,8 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "Who wrote 'An Inquiry into the Nature and Causes of the Wealth of Nations’, considered",
+      "Who wrote 'An Inquiry into the Nature and Causes of the Wealth of Nations', considered first modern work of economics?",
     options: [
-      "st modern work of economics?",
       "Adam Smith",
       "David Ricardo",
       "John Stuart Mill",
@@ -394,26 +398,26 @@ export const questions: Array<Question> = [
   },
   {
     question:
-      "Who wrote the ‘Theory on Population’, which states that the human population will surpass the limit where the world's resources can sustain human life?",
+      "Who wrote the 'Theory on Population', which states that the human population will surpass the limit where the world's resources can sustain human life?",
     options: [
       "John Maynard Keynes",
       "Alfred Marshall",
       "Thomas Malthus",
       "David Ricardo",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "Which among the fundamental concepts of economics states the economic pro between having unlimited human wants and needs but only having limited resources?",
     options: ["Consumption", "Scarcity", "Distribution", "Production"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "What do you call a situation that results from a high demand and less supply of a certain commodity?",
     options: ["Surplus", "Equilibrium", "Shortage", "Scarcity"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -429,7 +433,7 @@ export const questions: Array<Question> = [
       "The money value of services produced in a country.",
       "The value of goods and services produced in a country within a financial year.",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -451,7 +455,7 @@ export const questions: Array<Question> = [
       "Consumer Surplus",
       "Law of Diminishing Marginal Utility",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -462,7 +466,7 @@ export const questions: Array<Question> = [
       "Market Equilibrium",
       "Trade-offs",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -473,7 +477,7 @@ export const questions: Array<Question> = [
       "Market Equilibrium",
       "Trade-offs",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -495,7 +499,7 @@ export const questions: Array<Question> = [
       "Comparative Advantage",
       "Interdependence",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -506,7 +510,7 @@ export const questions: Array<Question> = [
       "Comparative Advantage",
       "Interdependence",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -528,7 +532,7 @@ export const questions: Array<Question> = [
       "Consumer Surplus",
       "Debt",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -550,7 +554,7 @@ export const questions: Array<Question> = [
       "Consumer Surplus",
       "Debt",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -572,7 +576,7 @@ export const questions: Array<Question> = [
       "Normal goods",
       "Inferior goods",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -583,7 +587,7 @@ export const questions: Array<Question> = [
       "For whom shall the goods be produced?",
       "When shall the goods be produced?",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -594,7 +598,7 @@ export const questions: Array<Question> = [
       "Individuals seeking employment but currently without work.",
       "Government policies fostering job retention programs.",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -605,7 +609,7 @@ export const questions: Array<Question> = [
       "Market economy",
       "Traditional economy",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
@@ -627,7 +631,7 @@ export const questions: Array<Question> = [
       "Market economy",
       "Traditional economy",
     ],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
@@ -638,13 +642,13 @@ export const questions: Array<Question> = [
       "Market economy",
       "Traditional economy",
     ],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
       "What economic system is marked by private ownership of the means of production and distribution, with economic activities driven by individual self-interest and market forces?",
     options: ["Socialism", "Welfare State", "Capitalism", "Traditional"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -656,13 +660,13 @@ export const questions: Array<Question> = [
     question:
       "Which political system involves the government assuming responsibility for the social and economic well-being of its citizens, providing various social services and benefits to ensure a basic standard of living?",
     options: ["Socialism", "Welfare State", "Capitalism", "Traditional"],
-    answerIndex: 0,
+    answerIndex: 1,
   },
   {
     question:
       "What term best describes the satisfaction or pleasure derived from consuming a good or service, influencing consumer behavior and decision- making?",
     options: ["Profit", "Marginal Cast", "Utility", "Revenue"],
-    answerIndex: 0,
+    answerIndex: 2,
   },
   {
     question:
@@ -673,13 +677,13 @@ export const questions: Array<Question> = [
       "Opportunity Cost",
       "Marginal Utility",
     ],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:
       "Which principle states that as one input variable is increased while other inputs are held constant, there is a point at which the marginal increase in output decreases?",
     options: [
-      "aw of Diminishing Returns",
+      "Law of Diminishing Returns",
       "Law of Supply",
       "Law of Diemand",
       "Law of Equilibrium",
@@ -690,7 +694,7 @@ export const questions: Array<Question> = [
     question:
       "Which of the following refers to a tax placed on things like alcohol, tobacco, and sugary drinks?",
     options: ["Property Tax", "Income Tax", "Value-added Tax", "Sin Tax"],
-    answerIndex: 0,
+    answerIndex: 3,
   },
   {
     question:

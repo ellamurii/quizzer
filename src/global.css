@@ -5,6 +5,6 @@
 }
 
 .choice-btn .mantine-Button-label {
-  white-space: normal;
+  white-space: pre-line;
   padding: 8px;
 }
